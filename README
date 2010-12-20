@@ -1,0 +1,28 @@
+PyBend
+------
+Simply put: use begin/end instead of mandatory indents in your Python code.
+
+Based* on pybraces (http://timhatch.com/projects/pybraces/) by Tim Hatch.
+
+* and by based I mean 1:1 rip off with begin/end instead of curly braces as { } are used to define dictionaries in Python which leads to collisions.
+
+Installation
+------------
+Put braces.py in your python encodings folder. Insert following line into files where you want to use begin/end:
+
+# -*- encoding: braces -*-
+
+Example
+-------
+#!/usr/bin/env python
+# -*- encoding: braces -*-
+
+if True:
+begin
+  print("Hello World");
+        print "lol";
+a =   ["a", "v"];
+    print a
+end
+
+
