@@ -24,6 +24,8 @@ begin
 a =   ["a", "v"];
     print a
 end
+#always close the file with ab enpty line/comment - else the interpreter will get stuck. bug :)
+
 
 WTF?!
 -----
