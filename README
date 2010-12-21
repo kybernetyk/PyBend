@@ -25,4 +25,6 @@ a =   ["a", "v"];
     print a
 end
 
-
+WTF?!
+-----
+Yes, I'm serious. I'm seriously fucked off by Python's whitespace Nazism. I hate those "let's put that code into a loop ... OH FUCKING WHITE SPACES" situations. 
